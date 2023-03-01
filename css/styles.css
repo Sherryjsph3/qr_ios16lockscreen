@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: url("/imgs/landing-pg-bkg.jpg") center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.headshot {
+    display: block;
+    margin: 55px auto 25px;
+}
+.intro-block {
+    margin: 0 auto;
+    text-align: center;
+    width: 330px;
+    font-size: 30px;
+    font-family: didot;
+    /* font-weight: bold; */
+    color: #f6f5ec;
+}
+.intro-name span {
+    color: #540415;
+    font-style: italic;
+}
+.intro-title span {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
