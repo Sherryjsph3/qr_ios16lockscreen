@@ -1,3 +1,5 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +21,7 @@ body {
     width: 330px;
     font-size: 30px;
     font-family: didot;
-    /* font-weight: bold; */
+    font-weight: bold;
     color: #f6f5ec;
 }
 .intro-name span {
@@ -29,4 +31,55 @@ body {
 .intro-title span {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
+}
+.bi-stars {
+    color: #f6f5ec;
+    font-size: 20px;
+}
+.intro-text {
+    font-style: italic;
+}
+.links-block {
+    display: block;
+    margin: 50px auto 0;
+}
+.btn-lnk {
+    outline: none;
+    background-color: #5c6b73;
+    display: block;
+    height: 60px;
+    width: 375px;
+    border: 1px solid #f6f5ec;
+    color: #f6f5ec;
+    letter-spacing: 4px;
+    margin: 0 auto;
+}
+.github {
+    border-top: 2px solid #f6f5ec;
+}
+.connect {
+    background-color: #540415;
+    display: block;
+    height: 60px;
+    width: 375px;
+    border: 1px solid #f6f5ec;
+    color: #f6f5ec;
+    letter-spacing: 4px;
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+    margin: 0 auto;
+}
+.copy
+.bi-person-workspace , .bi-github, .bi-linkedin, .bi-instagram {
+    display: none;
+}
+@media(max-width: 767px) {
+    .btn-lnk {
+        width: 100%;
+    }
+    .connect {
+        width: 100%;
+    }
+
 }
