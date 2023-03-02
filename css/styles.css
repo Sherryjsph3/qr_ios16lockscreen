@@ -13,6 +13,10 @@ body {
 }
 a {
     text-decoration: none !important;
+    color: #f6f5ec !important;
+}
+a:hover {
+    color: #540415 !important;
 }
 .headshot {
     display: block;
@@ -52,7 +56,7 @@ a {
     display: block;
     height: 60px;
     width: 375px;
-    border: 1px solid #f6f5ec;
+    border: 0.5px solid #f6f5ec;
     color: #f6f5ec;
     letter-spacing: 4px;
     margin: 0 auto;
@@ -67,7 +71,7 @@ a {
     height: 60px;
     font-size: 16px;
     width: 375px;
-    border: 1px solid #f6f5ec;
+    border: 0.5px solid #f6f5ec;
     color: #f6f5ec;
     letter-spacing: 4px;
     display: block;
@@ -81,19 +85,27 @@ a {
     height: 60px;
     width: 375px;
     font-size: 10px;
-    border: 1px solid #f6f5ec;
+    border: 0.5px solid #f6f5ec;
     color: #f6f5ec;
     letter-spacing: 4px;
     margin: 0 auto;
     text-align: center;
     padding: 21px 0;
 }
-.btn-lnk:hover {
-    color: #540415;
-}
+
 .bi-person-workspace , .bi-github, .bi-linkedin, .bi-instagram {
-    display: none;
+    /* display: none; */
 }
+.bi-instagram {
+    font-size: 17px;
+}
+.bi-person-workspace {
+    font-size: 18px;
+}
+.bi-github {
+    font-size: 19px;
+}
+
 @media(max-width: 767px) {
     .btn-lnk, .connect, .copyright {
         width: 100%;
