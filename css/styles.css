@@ -18,15 +18,7 @@ a {
 a:hover {
     color: #540415 !important;
 }
-a:link{
-    color: #540415 !important;
-}
-a:visited {
-    color: #540415 !important;
-}
-a:active {
-    color: #540415 !important;
-}
+
 .headshot {
     display: block;
     margin: 55px auto 25px;
@@ -101,10 +93,10 @@ a:active {
     text-align: center;
     padding: 21px 0;
 }
-
+/* 
 .bi-person-workspace , .bi-github, .bi-linkedin, .bi-instagram {
-    /* display: none; */
-}
+    display: none;
+} */
 .bi-instagram {
     font-size: 17px;
 }
