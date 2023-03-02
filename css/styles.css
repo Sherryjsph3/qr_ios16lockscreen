@@ -18,6 +18,15 @@ a {
 a:hover {
     color: #540415 !important;
 }
+a:link{
+    color: #540415 !important;
+}
+a:visited {
+    color: #540415 !important;
+}
+a:active {
+    color: #540415 !important;
+}
 .headshot {
     display: block;
     margin: 55px auto 25px;
