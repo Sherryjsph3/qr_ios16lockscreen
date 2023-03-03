@@ -10,7 +10,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    font-family: didot;
+    font-family: didot !important;
 }
 a {
     text-decoration: none !important;
@@ -94,11 +94,11 @@ a:hover {
     padding: 21px 0;
 }
 /* 
-.bi-person-workspace , .bi-github, .bi-linkedin, .bi-instagram {
+.bi-person-workspace , .bi-github, .bi-linkedin, .bi-envelope {
     display: none;
 } */
-.bi-instagram {
-    font-size: 17px;
+.bi-envelope {
+    font-size: 18px;
 }
 .bi-person-workspace {
     font-size: 18px;
